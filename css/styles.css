@@ -7,7 +7,7 @@ body{
 
 /*** Hero ***/
 
-.container{
+.hero > .container{
     padding: 10px 400px 100px 400px;
 }
 .hero{
@@ -79,6 +79,53 @@ img{
 
 
 /*** End Hero ***/
+
+/*** information section ***/
+
+.information-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-section > .container{
+    display: flex;
+    gap: 80px;
+    
+}
+
+.information-box{
+    width: 150px;
+    align-items: center;
+    display: flex;
+
+    /* TODO: change size of information-box > div so the text is sentered and equal to the picture */
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.information-header{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+.illustration{
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+/*** End information section ***/
+
+
 
 /*** General styles ***/
 button{
