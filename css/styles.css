@@ -91,19 +91,19 @@ img{
 .information-section > .container{
     display: flex;
     gap: 80px;
-    
 }
 
 .information-box{
-    width: 150px;
+    width: 145px;
     align-items: center;
     display: flex;
-
-    /* TODO: change size of information-box > div so the text is sentered and equal to the picture */
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
 
+.information-box > div{
+    text-align: center;
 }
 
 .information-header{
@@ -114,15 +114,12 @@ img{
 }
 
 .illustration{
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
     border: 4px solid #3882f6;
     border-radius: 16px;
     margin-bottom: 10px;
 }
-
-
-
 /*** End information section ***/
 
 
