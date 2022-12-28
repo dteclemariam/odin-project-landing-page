@@ -30,7 +30,7 @@ body{
 
 .header-links{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 ul{
@@ -70,6 +70,10 @@ a{
     border-color: #3882f6;
     color: #f9faf8;
     margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 5px 30px;
 }
 
 img{
@@ -149,12 +153,41 @@ img{
     padding-right: 20px;
 }
 
+.footer{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
 
-/*** General styles ***/
-button{
+.footer > .container{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 50px 140px;
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}
+
+.footer-main-text{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-secondary-text{
+    font-size: 18px;
+}
+
+.footer > .container button{
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
     padding: 5px 30px;
+    border: solid 2px;
 }
-/*** End general styles ***/
+
+
