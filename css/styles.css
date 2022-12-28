@@ -8,7 +8,7 @@ body{
 /*** Hero ***/
 
 .hero > .container{
-    padding: 10px 400px 100px 400px;
+    padding: 10px 400px 120px 400px;
 }
 .hero{
     background-color: #1F2937;
@@ -44,7 +44,7 @@ li{
 .header-bottom{
     display: flex;
     justify-content: space-between;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 .hero-secondary-text,
@@ -73,7 +73,7 @@ a{
 }
 
 img{
-    height: 180px;
+    height: 220px;
     width: 500px;
 }
 
@@ -122,6 +122,32 @@ img{
 }
 /*** End information section ***/
 
+/*** Start quote section ***/
+.quote-section{
+    margin-top: 100px;
+    background-color: #e5e7eb;
+}
+
+.quote-section > .container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 540px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.author{
+    margin-top: 0;
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 600;
+    padding-right: 20px;
+}
 
 
 /*** General styles ***/
@@ -129,6 +155,6 @@ button{
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 5px 30px;
 }
 /*** End general styles ***/
